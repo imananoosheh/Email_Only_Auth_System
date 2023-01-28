@@ -7,9 +7,10 @@
     <title>Email Only Auth Client Page</title>
 </head>
 <body>
-    <form action="">
-        <label for="email-input">Email</label>
-        <input type="email" name="email-input" id="email-input">
+    <form method="POST" action="http://localhost:3000/login">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <button type="submit">Log In</button>
     </form>
 </body>
 </html>
