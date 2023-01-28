@@ -4,7 +4,7 @@
     1.  Sign up @ [SendGrid Website](https://app.sendgrid.com/)
     2.  create an identity (you should have a valid email to send from)
     3.  create an API Key for free
-3.  create a ".env" file. In linux machines you can use the commnad below in terminal: <br>
+3.  create a ".env" file. In linux machines you can use the command below in terminal: <br>
     ```
     nano .env
     ``` 
@@ -22,5 +22,5 @@
    cd server
    node server.js
    ```
-6. open index.html enter the same email you enter in SEND_TO_EMAIL_EXAMPLE field in .env file and test it out!
+6. open index.html enter the same email you enter in the SEND_TO_EMAIL_EXAMPLE field in .env file and test it out!
 7. Happy logging in using Only Email Authentication
