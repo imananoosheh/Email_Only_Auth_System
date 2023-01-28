@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 const USERS = [
     {
         id: 1,
-        email: "imananoosheh@gmail.com",
+        email: process.env.SEND_TO_EMAIL_EXAMPLE,
         name: "Iman",
     },
 ];
